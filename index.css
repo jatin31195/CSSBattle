@@ -1,0 +1,117 @@
+body {
+    color: #eee;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-image: url('https://img.freepik.com/free-vector/realistic-hexagonal-background_79603-1646.jpg');
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-image: url('https://st4.depositphotos.com/5501600/21385/i/450/depositphotos_213852208-stock-photo-abstract-blue-digital-background-technology.jpg');
+    transform: translate(-50%, -50%);
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 80%;
+    height: 70%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+.navbar {
+    display: flex;
+    background-color: #2200ff;
+    color:transparent;
+    padding:7px 20px;
+    justify-content: space-around;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius:8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.navbar button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.navbar button:hover{
+    color: aqua;
+}
+form {
+    background-color: #ffffff;
+    display: flex;
+    background-image: url('https://st4.depositphotos.com/5501600/21385/i/450/depositphotos_213852208-stock-photo-abstract-blue-digital-background-technology.jpg');
+
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    
+    flex-direction: column;
+    padding: 0px 0px 20px 28px;
+    width: 40%;
+    height: 80%;
+    text-align: center;
+}
+.input-group {
+    display: flex;
+    margin-left: -60px;
+    justify-content: space-between;
+    width: 80%;
+}
+.input-group input {
+    background-color: #eee;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px 8px;
+    width: 110px; 
+}
+.btn {
+    border-radius: 20px;
+    border: 1px solid #18608a;
+    background-color: #2200ff;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 10px;
+    margin-left: -45%;
+    margin-top: 10px;
+    text-transform: uppercase;
+    
+}
+.btn:hover{
+    background-color: #51488b;
+}
+.Message{
+    margin-left: -40%;
+}
+.Message input {
+    background-color: #eee;
+    border: none;
+    padding: 10px 15px 80px;
+    margin: 4px 0;
+    width: 138%;
+}
+.outer{
+    display: flex;
+    flex-direction: column;
+  
+}
+.contact{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    
+    margin-top: -37%;
+}
+.contact h3,
+.contact p {
+    margin: 13px 10px;
+}
+.contact img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px; 
+}
